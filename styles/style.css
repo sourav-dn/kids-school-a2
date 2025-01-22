@@ -280,7 +280,7 @@ nav li a{
     height: 47px;
     border-style: none;
     position: relative;
-    right: -340px;
+    right: -360px;
     top: -30px;
 }
 .story-btn5{
@@ -291,7 +291,7 @@ nav li a{
     height: 47px;
     border-style: none;
     position: relative;
-    left: -280px;
+    left: -320px;
     top: -30px;
 }
 .story1-img{
@@ -302,7 +302,7 @@ nav li a{
     border-radius: 16px;
     margin-left: 140px;
     border-radius: 16px;
-    border: 2px solid black;
+    border: 2px solid gray;
     text-align: center;
 }
 .story1-img h4 {
@@ -332,11 +332,18 @@ nav li a{
     height: 301px;
     border-radius: 16px;
     margin-right: 19px;
+    border: 2px solid gray;
+}
+.story1-img img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
 }
 .story2-img img{
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     width: 100%;
+    
 }
 .story3-img img{
     border-top-left-radius: 16px;
@@ -358,19 +365,22 @@ nav li a{
     width: 290px;
     height: 301px;
     border-radius: 16px;
-    
+    border: 2px solid gray;
 }
 .story4-img{
     width: 290px;
     height: 301px;
     border-radius: 16px;
-    
+    border: 2px solid gray;
+    margin-top: 19px;
 }
 .story5-img{
     width: 290px;
     height: 301px;
     border-radius: 16px;
-    
+    border: 2px solid gray;
+    margin-top: 19px;
+    text-align: center;
 }
 .secondary-btn{
     color: white;
@@ -387,14 +397,41 @@ nav li a{
     margin-top: 122px;
     margin-bottom: 170px;
     align-items: center;
+    background-color: #01ACFD;
+    margin: 123px 140px 123px 140px;
     
+}
+.kids-footer p{
+    margin-top: 35px;
+    margin-bottom: 123px;
+    color: white;
 }
 .footer-flex{
     display: flex;
 }
-
-
-
+.footer-about{
+    color: white;
+}
+.footer-about ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer-title1{
+    margin-top: 123px;
+    color: white;
+}
+.footer-title2{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 34px;
+    
+}
+.keep-in-touch h5{
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 32px;
+}
 
 
 
@@ -468,6 +505,13 @@ nav li a{
       main{
         width: 100%;
       }
+
+
+      body{
+        width: 100%;
+      }
+
+
       .section-two{
         width: 100%;
       }
@@ -484,8 +528,12 @@ nav li a{
         display: none;
       }
       .story-secondary-images{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 19px;
+        /* grid-template-columns: repeat(2, 1fr); */
+        gap: 5px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
+        width: 100%;
+        height: auto;
       }
       .story-btn4{
         position: relative;
@@ -502,6 +550,10 @@ nav li a{
       .story-other-img{
         margin-left: 10px;
         margin-right: 10px;
+      }
+      .story2-img{
+        margin-right: 0px;
+        margin-left: 25x;
       }
       .story2-img>img{
         width: 100%;
@@ -520,5 +572,18 @@ nav li a{
         height: auto;
         overflow: hidden;
       }
+      .kids-education-footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+      }
+
+
+
+
+
 
 }
