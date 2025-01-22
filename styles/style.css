@@ -590,22 +590,25 @@ nav li a {
     .story-btn2 {
         position: relative;
         left: 2px;
+        width: 40vw;
     }
 
     .story-btn3 {
         position: relative;
         left: 5px;
-
+        width: 40vw;
     }
 
     .story-btn4 {
         position: relative;
         left: 2px;
+        width: 40vw;
     }
 
     .story-btn5 {
         position: relative;
         left: 2px;
+        width: 40vw;
     }
 
     .secondary-btn {
