@@ -583,7 +583,6 @@ nav li a {
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
         display: grid;
-        /* grid-template-columns: repeat(auto-fit, minmax(2, 1fr)); */
         max-width: 100%;
         height: auto;
     }
@@ -623,7 +622,6 @@ nav li a {
         margin-left: 0px;
         margin-right: 10px;
         width: 105vw;
-
     }
 
     .story2-img {
