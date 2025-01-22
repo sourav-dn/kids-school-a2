@@ -609,7 +609,9 @@ nav li a {
     }
 
     .secondary-btn {
-        margin: 20px 100px 40px 100px;
+        margin: 20px 100px 40px 140px;
+        width: 134px;
+        height: 30px;
     }
 
     .story-bg-image {
