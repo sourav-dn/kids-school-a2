@@ -198,8 +198,11 @@ nav li a{
     transform: scale(1.05);
 }
 .story-bg-image{
-    background-image: url(../assets/bg.png);
+    /* background-image: url(../assets/bg.png); */
     /* background-image: linear-gradient( #FEA301 0%, #FFFFFF 100%); */
+    background: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+
     height: 100%;
     width: 100%;
 }
@@ -227,6 +230,8 @@ nav li a{
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
+
+    
 }
 
 
@@ -297,6 +302,7 @@ nav li a{
     border-radius: 16px;
     border: 2px solid gray;
     text-align: center;
+    background-color: white;
 }
 .story1-img h4 {
     padding-top: 58px;
@@ -319,6 +325,9 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 19px;
+
+    /* border: 2px solid black; */
+    
 }
 .story2-img{
     width: 290px;
@@ -326,6 +335,7 @@ nav li a{
     border-radius: 16px;
     margin-right: 19px;
     border: 2px solid gray;
+    background-color: white;
 }
 .story1-img img{
     border-top-left-radius: 16px;
@@ -359,6 +369,8 @@ nav li a{
     height: 301px;
     border-radius: 16px;
     border: 2px solid gray;
+    background-color: white;
+    
 }
 .story4-img{
     width: 290px;
@@ -366,6 +378,7 @@ nav li a{
     border-radius: 16px;
     border: 2px solid gray;
     margin-top: 19px;
+    background-color: white;
 }
 .story5-img{
     width: 290px;
@@ -374,6 +387,7 @@ nav li a{
     border: 2px solid gray;
     margin-top: 19px;
     text-align: center;
+    background-color: white;
 }
 .secondary-btn{
     color: white;
@@ -521,33 +535,63 @@ nav li a{
         display: none;
       }
       .story-secondary-images{
-        /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: repeat(2, 1fr);
         gap: 5px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
-        width: 100%;
+        /* grid-template-columns: repeat(auto-fit, minmax(2, 1fr)); */
+        max-width: 100%;
         height: auto;
+      }
+      .story-btn2{
+        position: relative;
+        left: 2px;
+      }
+      .story-btn3{
+        position: relative;
+        left: 5px;
+        
       }
       .story-btn4{
         position: relative;
-        left: 55px;
+        left: 2px;
       }
       .story-btn5{
         position: relative;
-        left: 55px;
+        left: 5px;
       }
       .secondary-btn{
         margin: 20px 100px 40px 100px;
       }
-
+      .story-bg-image{
+        background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+        height: 100%;
+        width: 100%;
+      }
       .story-other-img{
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 10px;
+        width: 105vw;
+        
       }
       .story2-img{
         margin-right: 0px;
         margin-left: 25x;
+        width: 42vw;
       }
+
+      .story3-img{
+        margin-left: 0px;
+        width: 42vw;
+      }
+      .story4-img{
+        
+        width: 42vw;
+      }
+      .story5-img{
+        width: 42vw;
+      }
+
+
       .story2-img>img{
         width: 100%;
         height: auto;
@@ -559,11 +603,6 @@ nav li a{
       .story4-img>img{
         width: 100%;
         height: auto;
-      }
-      .story5-img{
-        width: 100%;
-        height: auto;
-        overflow: hidden;
       }
       .kids-education-footer{
         width: 100%;
