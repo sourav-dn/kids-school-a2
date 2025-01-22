@@ -442,8 +442,6 @@ nav li a {
 .kids-education-footer {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 122px;
-    margin-bottom: 170px;
     align-items: center;
     background-color: #01ACFD;
     margin: 0px 140px 123px 140px;
